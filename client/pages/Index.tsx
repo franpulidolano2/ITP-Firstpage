@@ -210,7 +210,7 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-white font-['Roboto']">
       {/* Header Bar with Logo */}
-      <div className="w-full h-[60px] bg-gradient-to-r from-waltura-primary to-waltura-green-accent flex items-center px-8">
+      <div className="w-full h-[60px] bg-waltura-primary flex items-center px-8">
         <div className="text-white text-xl font-bold tracking-wide">
           WALTURA
         </div>

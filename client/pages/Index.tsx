@@ -212,7 +212,7 @@ export default function Index() {
       {/* Header Bar with Logo */}
       <div className="w-full h-[60px] bg-waltura-primary flex items-center px-8">
         <div className="text-white text-xl font-bold tracking-wide">
-          WALTURA
+          ALTURA
         </div>
         <div className="ml-auto flex items-center gap-4">
           <div className="text-white text-sm">David Kavanagh</div>

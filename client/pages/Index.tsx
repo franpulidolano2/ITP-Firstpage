@@ -221,17 +221,17 @@ export default function Index() {
       </div>
 
       {/* Navigation Menu */}
-      <div className="w-full h-12 bg-waltura-tertiary flex items-center px-8">
-        <div className="bg-waltura-secondary h-12 px-8 flex items-center rounded-none">
+      <div className="w-full h-12 bg-waltura-tertiary flex items-center px-4 md:px-8 overflow-x-auto">
+        <div className="bg-waltura-secondary h-12 px-4 md:px-8 flex items-center rounded-none whitespace-nowrap">
           <span className="text-waltura-primary font-bold text-[17px] tracking-[-0.425px]">Dashboard</span>
         </div>
-        <div className="px-8 h-12 flex items-center">
+        <div className="px-4 md:px-8 h-12 flex items-center whitespace-nowrap">
           <span className="text-waltura-primary font-bold text-[17px] tracking-[-0.425px]">Quality Control</span>
         </div>
-        <div className="px-8 h-12 flex items-center">
+        <div className="px-4 md:px-8 h-12 flex items-center whitespace-nowrap">
           <span className="text-waltura-primary font-bold text-[17px] tracking-[-0.425px]">Document Control</span>
         </div>
-        <div className="px-8 h-12 flex items-center">
+        <div className="px-4 md:px-8 h-12 flex items-center whitespace-nowrap">
           <span className="text-waltura-primary font-bold text-[17px] tracking-[-0.425px]">Analytics</span>
         </div>
       </div>

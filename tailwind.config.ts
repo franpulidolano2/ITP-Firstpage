@@ -23,6 +23,17 @@ export default {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
         },
+        waltura: {
+          primary: "#015A48",
+          secondary: "#F0F0F0",
+          tertiary: "#CFD6CA",
+          red: "#CA271B",
+          green: "#4B9D65",
+          "gray-light": "#F0F0F0",
+          "gray-medium": "#B6B6B6",
+          "gray-dark": "#373B3B",
+          "green-accent": "#7A9690",
+        },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",

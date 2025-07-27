@@ -344,25 +344,27 @@ export default function Index() {
         </div>
 
         {/* Search and Action Bar */}
-        <div className="flex items-center gap-4 mb-6">
-          <div className="flex-1 max-w-[628px] h-10 bg-waltura-secondary rounded-[3px] relative">
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mb-6">
+          <div className="flex-1 max-w-full sm:max-w-[628px] h-10 bg-waltura-secondary rounded-[3px] relative">
             <input
               type="text"
               placeholder="Search"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full h-full px-4 bg-transparent text-waltura-gray-medium font-bold text-[15px] tracking-[-0.375px] placeholder-waltura-gray-medium border-none outline-none"
+              className="w-full h-full px-4 pr-20 bg-transparent text-waltura-gray-medium font-bold text-[15px] tracking-[-0.375px] placeholder-waltura-gray-medium border-none outline-none"
             />
             <div className="absolute right-0 top-0 w-16 h-10 bg-waltura-primary rounded-[3px] flex items-center justify-center">
               <SearchIcon />
             </div>
           </div>
-          <button className="h-10 px-6 bg-waltura-primary rounded-[3px] text-waltura-secondary font-bold text-[15px] tracking-[-0.375px] flex items-center justify-center">
-            + New Item
-          </button>
-          <button className="h-10 px-6 bg-waltura-primary rounded-[3px] text-waltura-secondary font-bold text-[15px] tracking-[-0.375px] flex items-center justify-center">
-            Export
-          </button>
+          <div className="flex gap-4">
+            <button className="h-10 px-6 bg-waltura-primary rounded-[3px] text-waltura-secondary font-bold text-[15px] tracking-[-0.375px] flex items-center justify-center whitespace-nowrap">
+              + New Item
+            </button>
+            <button className="h-10 px-6 bg-waltura-primary rounded-[3px] text-waltura-secondary font-bold text-[15px] tracking-[-0.375px] flex items-center justify-center whitespace-nowrap">
+              Export
+            </button>
+          </div>
         </div>
 
         {/* Data Table */}

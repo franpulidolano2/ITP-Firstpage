@@ -366,10 +366,11 @@ export default function Index() {
             </button>
           </div>
         </div>
+      </div>
 
-        {/* Data Table */}
-        <div className="bg-white overflow-x-auto">
-          <div className="min-w-[1200px]">
+      {/* Data Table */}
+      <div className="bg-white overflow-x-auto w-full">
+        <div className="min-w-[1200px]">
             {/* Table Header */}
             <div className="flex items-center h-[31px] border-b border-waltura-tertiary">
             <div className="w-20 px-3 bg-waltura-secondary h-full flex items-center justify-between">
@@ -441,7 +442,6 @@ export default function Index() {
               </div>
               </div>
             ))}
-          </div>
         </div>
       </div>
     </div>

@@ -245,10 +245,10 @@ export default function Index() {
           <div className="text-waltura-gray-dark font-bold text-[15px] tracking-[-0.375px] border-b-2 border-waltura-primary pb-1 whitespace-nowrap">
             Documents and Procedures
           </div>
-          <div className="text-waltura-gray-medium font-bold text-[15px] tracking-[-0.375px] whitespace-nowrap">
+          <div className="text-waltura-gray-medium font-bold text-[15px] tracking-[-0.375px] whitespace-nowrap mb-auto">
             Test and Inspections
           </div>
-          <div className="text-waltura-gray-medium font-bold text-[15px] tracking-[-0.375px] whitespace-nowrap">
+          <div className="text-waltura-gray-medium font-bold text-[15px] tracking-[-0.375px] whitespace-nowrap mb-auto">
             Compliance
           </div>
         </div>

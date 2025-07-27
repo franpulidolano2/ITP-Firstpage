@@ -237,18 +237,18 @@ export default function Index() {
       </div>
 
       {/* Sub Navigation */}
-      <div className="w-full h-12 bg-waltura-secondary flex items-center px-8">
-        <div className="text-waltura-primary font-bold text-[20px] tracking-[-0.5px] mr-8">
+      <div className="w-full h-12 bg-waltura-secondary flex items-center px-4 md:px-8 overflow-x-auto">
+        <div className="text-waltura-primary font-bold text-[20px] tracking-[-0.5px] mr-4 md:mr-8 whitespace-nowrap">
           Quality Control
         </div>
-        <div className="flex items-center gap-6">
-          <div className="text-waltura-gray-dark font-bold text-[15px] tracking-[-0.375px] border-b-2 border-waltura-primary pb-1">
+        <div className="flex items-center gap-4 md:gap-6">
+          <div className="text-waltura-gray-dark font-bold text-[15px] tracking-[-0.375px] border-b-2 border-waltura-primary pb-1 whitespace-nowrap">
             Documents and Procedures
           </div>
-          <div className="text-waltura-gray-medium font-bold text-[15px] tracking-[-0.375px]">
+          <div className="text-waltura-gray-medium font-bold text-[15px] tracking-[-0.375px] whitespace-nowrap">
             Test and Inspections
           </div>
-          <div className="text-waltura-gray-medium font-bold text-[15px] tracking-[-0.375px]">
+          <div className="text-waltura-gray-medium font-bold text-[15px] tracking-[-0.375px] whitespace-nowrap">
             Compliance
           </div>
         </div>

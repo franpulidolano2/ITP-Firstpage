@@ -368,9 +368,10 @@ export default function Index() {
         </div>
 
         {/* Data Table */}
-        <div className="bg-white">
-          {/* Table Header */}
-          <div className="flex items-center h-[31px] border-b border-waltura-tertiary">
+        <div className="bg-white overflow-x-auto">
+          <div className="min-w-[1200px]">
+            {/* Table Header */}
+            <div className="flex items-center h-[31px] border-b border-waltura-tertiary">
             <div className="w-20 px-3 bg-waltura-secondary h-full flex items-center justify-between">
               <span className="text-waltura-gray-medium font-bold text-[14px] tracking-[-0.35px]">Item</span>
               <SortIcon />
@@ -379,7 +380,7 @@ export default function Index() {
               <span className="text-waltura-gray-medium font-bold text-[14px] tracking-[-0.35px]">Date Issued</span>
               <SortIcon />
             </div>
-            <div className="flex-1 px-3 bg-waltura-secondary h-full flex items-center justify-between">
+            <div className="w-64 px-3 bg-waltura-secondary h-full flex items-center justify-between">
               <span className="text-waltura-gray-medium font-bold text-[14px] tracking-[-0.35px]">Name</span>
               <SortIcon />
             </div>
@@ -406,18 +407,18 @@ export default function Index() {
             <div className="w-12 px-3 bg-waltura-secondary h-full flex items-center justify-center">
               <SettingsIcon />
             </div>
-          </div>
+            </div>
 
-          {/* Table Rows */}
-          {inspectionData.map((item) => (
-            <div key={item.id} className="flex items-center h-[35px] border-b border-waltura-tertiary hover:bg-gray-50">
+            {/* Table Rows */}
+            {inspectionData.map((item) => (
+              <div key={item.id} className="flex items-center h-[35px] border-b border-waltura-tertiary hover:bg-gray-50">
               <div className="w-20 px-3 h-full flex items-center">
                 <span className="text-waltura-gray-dark font-medium text-[14px] tracking-[-0.35px]">{item.id}</span>
               </div>
               <div className="w-32 px-3 h-full flex items-center">
                 <span className="text-waltura-gray-dark font-medium text-[14px] tracking-[-0.35px]">{item.date}</span>
               </div>
-              <div className="flex-1 px-3 h-full flex items-center">
+              <div className="w-64 px-3 h-full flex items-center">
                 <span className="text-waltura-gray-dark font-medium text-[14px] tracking-[-0.35px]">{item.name}</span>
               </div>
               <div className="w-32 px-3 h-full flex items-center">
@@ -438,8 +439,9 @@ export default function Index() {
               <div className="w-12 px-3 h-full flex items-center justify-center">
                 <div className="w-1 h-4 bg-waltura-gray-medium opacity-50 rounded"></div>
               </div>
-            </div>
-          ))}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

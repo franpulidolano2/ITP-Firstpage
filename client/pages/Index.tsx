@@ -255,15 +255,15 @@ export default function Index() {
       </div>
 
       {/* Sub Sub Navigation */}
-      <div className="w-full h-[37px] bg-white flex items-center px-8 border-b-2 border-waltura-secondary">
-        <div className="flex items-center gap-6">
-          <div className="text-waltura-gray-dark font-bold text-[15px] tracking-[-0.375px]">
+      <div className="w-full h-[37px] bg-white flex items-center px-4 md:px-8 border-b-2 border-waltura-secondary overflow-x-auto">
+        <div className="flex items-center gap-4 md:gap-6">
+          <div className="text-waltura-gray-dark font-bold text-[15px] tracking-[-0.375px] whitespace-nowrap">
             Inspection Test Plans (ITP)
           </div>
-          <div className="text-waltura-gray-medium font-bold text-[15px] tracking-[-0.375px]">
+          <div className="text-waltura-gray-medium font-bold text-[15px] tracking-[-0.375px] whitespace-nowrap">
             Inspection Test Checklists (ITC)
           </div>
-          <div className="text-waltura-gray-medium font-bold text-[15px] tracking-[-0.375px]">
+          <div className="text-waltura-gray-medium font-bold text-[15px] tracking-[-0.375px] whitespace-nowrap">
             Work Packs
           </div>
         </div>

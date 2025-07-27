@@ -372,7 +372,7 @@ export default function Index() {
       <div className="bg-white overflow-x-auto w-full">
         <div className="min-w-[1200px]">
             {/* Table Header */}
-            <div className="flex items-center h-[31px] border-b border-waltura-tertiary">
+            <div className="flex items-center h-[31px] border-b border-waltura-tertiary gap-[23px]">
             <div className="w-20 px-3 bg-waltura-secondary h-full flex items-center justify-between">
               <span className="text-waltura-gray-medium font-bold text-[14px] tracking-[-0.35px]">Item</span>
               <SortIcon />
@@ -412,7 +412,7 @@ export default function Index() {
 
             {/* Table Rows */}
             {inspectionData.map((item) => (
-              <div key={item.id} className="flex items-center h-[35px] border-b border-waltura-tertiary hover:bg-gray-50">
+              <div key={item.id} className="flex items-center h-[35px] border-b border-waltura-tertiary hover:bg-gray-50 gap-[23px]">
               <div className="w-20 px-3 h-full flex items-center">
                 <span className="text-waltura-gray-dark font-medium text-[14px] tracking-[-0.35px]">{item.id}</span>
               </div>
